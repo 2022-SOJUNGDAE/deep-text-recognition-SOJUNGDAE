@@ -1,3 +1,46 @@
+# Conda 설치(윈도우)
+
+```
+powershell -command "Invoke-WebRequest -Uri https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -OutFile ~\miniconda.exe"
+start /B /WAIT %UserProfile%\miniconda.exe /InstallationType=JustMe /AddToPath=0 /RegisterPython=0 /S /D=%UserProfile%\miniconda3
+del %UserProfile%\miniconda.exe
+%UserProfile%\miniconda3\condabin\activate
+conda --help
+```
+
+- conda --help 로 정상적으로 작동하나 확인합시다
+
+```
+conda update --all
+conda init powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+
+- conda 환경이 만들어졌습니다 이제 가상환경을 만들어 봅시다
+
+```
+conda create -n sojungdae python==3.8
+```
+
+- conda init powershell을 했기 때문에 파워쉘을 킬때마다 자동으로 conda가 활성화 될 것입니다
+- 매번 시작하기 전 생성해준 conda 가상환경을 켜 줍시다
+
+```
+conda activate sojungdae
+```
+
+- 이제 이 conda 가상환경 안에 우리가 필요한 패키지들을 설치해주면 됩니다
+
+```
+conda install cudatoolkit=11.3 -c pytorch -c conda-forge
+pip3 install lmdb pillow nltk natsort
+pip3 install timm==0.4.5 six==1.16.0
+pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+
+
+
 # What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis
 | [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recognition-benchmark#download-failure-cases-and-cleansed-label-from-here) | [pretrained model](https://www.dropbox.com/sh/j3xmli4di1zuv3s/AAArdcPgz7UFxIHUuKNOeKv_a?dl=0) | [Baidu ver(passwd:rryk)](https://pan.baidu.com/s/1KSNLv4EY3zFWHpBYlpFCBQ) |
 
