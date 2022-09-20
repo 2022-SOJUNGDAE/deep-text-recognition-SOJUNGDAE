@@ -12,6 +12,10 @@
 *.eps
 *.pdf
 
+saved_models/*
+data/*
+data_lmdb/*
+
 ### Linux ###
 *~
 
