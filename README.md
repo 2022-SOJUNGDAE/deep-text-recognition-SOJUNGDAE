@@ -1,25 +1,27 @@
 # Modified Deep text recognition model for SOJUNGDAE competition
 ```
 This is the modified code for deep text recognition model.
-We used it for the competion SOJUNGDAE.
+We used it for the competition SOJUNGDAE.
+The main goal of the competition was to make a OCR model for
+outdoor street sign images.
 We've placed 4th placed on the competetion and got 우수상 award
 ``` 
 
 # About the competetion
-![이미지 설명](./readme_images/poster.jpeg)
-![이미지 설명](./readme_images/prize.jpeg)
-![이미지 설명](./readme_images/prize2.jpeg)
+<img src="./readme_images/poster.jpeg" alt="이미지 설명" style="max-width:50%;">
+<img src="./readme_images/prize2.jpeg" alt="이미지 설명" style="max-width:50%;">
+<img src="./readme_images/prize.jpeg" alt="이미지 설명" style="max-width:50%;">
 
 # Our experiments
-![이미지 설명](./readme_images/ppt1.jpg)
-![이미지 설명](./readme_images/ppt2.jpg)
-![이미지 설명](./readme_images/ppt3.jpg)
-![이미지 설명](./readme_images/ppt4.jpg)
-![이미지 설명](./readme_images/ppt5.jpg)
-![이미지 설명](./readme_images/ppt6.jpg)
-![이미지 설명](./readme_images/ppt7.jpg)
-![이미지 설명](./readme_images/ppt8.jpg)
-![이미지 설명](./readme_images/ppt9.jpg)
+<img src="./readme_images/ppt1.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt2.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt3.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt4.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt5.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt6.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt7.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt8.jpg" alt="이미지 설명" style="max-width:75%;">
+<img src="./readme_images/ppt9.jpg" alt="이미지 설명" style="max-width:75%;">
 
 # Dependencies
 
