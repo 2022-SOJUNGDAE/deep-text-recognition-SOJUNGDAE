@@ -38,10 +38,32 @@ pip3 install timm==0.4.5 six==1.16.0
 pip3 install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+# Modified Deep text recognition model for SOJUNGDAE competition
+```
+This is the modified code for deep text recognition model we used for the competion `SOJUNGDAE`
+We've placed 4th placed on the competetion and got `우수상` award
+``` 
+
+# About the competetion
+![이미지 설명](./readme_images/poster.jpeg)
+![이미지 설명](./readme_images/prize.jpeg)
+![이미지 설명](./readme_images/prize2.jpeg)
+
+# Our experiments
+![이미지 설명](./readme_images/ppt1.jpg)
+![이미지 설명](./readme_images/ppt2.jpg)
+![이미지 설명](./readme_images/ppt3.jpg)
+![이미지 설명](./readme_images/ppt4.jpg)
+![이미지 설명](./readme_images/ppt5.jpg)
+![이미지 설명](./readme_images/ppt6.jpg)
+![이미지 설명](./readme_images/ppt7.jpg)
+![이미지 설명](./readme_images/ppt8.jpg)
+![이미지 설명](./readme_images/ppt9.jpg)
 
 
 
-# What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis
+
+# Information about the baseline model
 | [paper](https://arxiv.org/abs/1904.01906) | [training and evaluation data](https://github.com/clovaai/deep-text-recognition-benchmark#download-lmdb-dataset-for-traininig-and-evaluation-from-here) | [failure cases and cleansed label](https://github.com/clovaai/deep-text-recognition-benchmark#download-failure-cases-and-cleansed-label-from-here) | [pretrained model](https://www.dropbox.com/sh/j3xmli4di1zuv3s/AAArdcPgz7UFxIHUuKNOeKv_a?dl=0) | [Baidu ver(passwd:rryk)](https://pan.baidu.com/s/1KSNLv4EY3zFWHpBYlpFCBQ) |
 
 Official PyTorch implementation of our four-stage STR framework, that most existing STR models fit into. <br>
