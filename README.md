@@ -8,8 +8,8 @@ We've placed 4th placed on the competetion and got 우수상 award.
 
 # About the competetion
 <img src="./readme_images/poster.jpeg" alt="competition poster" style="max-width:50%;">
-<img src="./readme_images/prize2.jpeg" alt="prize image" style="max-width:30%;">
-<img src="./readme_images/prize.jpeg" alt="prize image" style="max-width:30%;">
+<img src="./readme_images/prize2.jpeg" alt="prize image" style="max-width:20%;">
+<img src="./readme_images/prize.jpeg" alt="prize image" style="max-width:20%;">
 
 # Our experiments
 <img src="./readme_images/ppt1.jpg" alt="ppt slide for our project" style="max-width:75%;">
