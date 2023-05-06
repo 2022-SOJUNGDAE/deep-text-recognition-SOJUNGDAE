@@ -244,3 +244,4 @@ class ResNet(nn.Module):
         x = self.relu(x)
 
         return x
+

@@ -79,3 +79,4 @@ class AttentionCell(nn.Module):
         concat_context = torch.cat([context, char_onehots], 1)  # batch_size x (num_channel + num_embedding)
         cur_hidden = self.rnn(concat_context, prev_hidden)
         return cur_hidden, alpha
+
